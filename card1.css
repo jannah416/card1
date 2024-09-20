@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+ .card1{
+    text-align: center;
+background-image: url(gg.jpg);
+    background-position: center;
+    border-radius: 15px;
+    margin: 50px;
+  width:650px;
+  height:360px
+}
+ .icons {
+   padding: 10px;
+    text-align: left;
+}
+
+.linkk{
+    margin-top: 7px;
+    background-color: white;
+    padding: 10px;
+   display: inline-block;
+   border-radius: 8px;
+   
+ 
+}
+
+.linkk i {
+    color:rgb(202, 158, 244);
+    
+}
+
+.icons p i {
+    color:rgb(202, 158, 244);
+   position: relative;
+   font-size: 50px;
+   top:2px;
+}
+     
+.icons span{
+    color: azure;
+    position: absolute;
+    left: 68px;
+    top:75px;
+    font-size: 15px;
+}
+.icons  a  {
+    color: white;
+    font-size: 18px;
+  
+}
+
+
+  .dotts{
+    border: none;
+    border-top: 5px dashed rgba(255, 255, 255, 0.571);
+    margin: 28px 0;
+    display: flex;
+    justify-content: space-between;
+   position: relative;
+  }
+  .dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+   margin-block-start: -8px;
+   position: absolute;
+    top:-5px;
+    left:-17px  
+  }
+
+  .dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+    right:-17px
+  }
+
+  .part2{
+
+    display: flex;
+    justify-content: space-around;
+  }
+  .right-side{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+  }
+
+.last-btn a{
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right:15px ;
+}
